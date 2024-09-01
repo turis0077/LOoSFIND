@@ -18,7 +18,10 @@ public class MainView {
 
         root.getChildren().addAll(btnRegistrar, btnBuscar, btnNotificaciones);
 
+        // Cargar y aplicar el archivo de estilos CSS
         Scene scene = new Scene(root, 400, 300);
+        scene.getStylesheets().add(getClass().getResource("/styles.css").toExternalForm());
+
         stage.setTitle("LOosFind UVG");
         stage.setScene(scene);
         stage.show();
