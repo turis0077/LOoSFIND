@@ -21,5 +21,35 @@ public class ObjetoExtraviado {
         this.secretaria = secretaria;
     }
 
+    public String getTipobjeto(){
+        return tipobjeto;
+    }
+
+    public String getColor(){
+        return color;
+    }
+
+    public String getSize(){
+        return size;
+    }
+
+    public String getForma(){
+        return forma;
+    }
+
+    public String getFecha(){
+        return fecha;
+    }
     
+    public String getLocation(){
+        return location;
+    }
+
+    public String getEstado(){
+        return estado;
+    }
+
+    public boolean getSecretaria(){
+        return secretaria;
+    }
 }
