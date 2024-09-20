@@ -59,3 +59,19 @@ public class Usuario {
     public List<String> getLostObjects() {
         return this.objetosPerdidos;
     }
+
+    @Override
+    public String toString() {
+        return "Usuario{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", email='" + email + '\'' +
+                ", contraseña='" + contraseña + '\'' +
+                ", fechaNacimiento=" + fechaNacimiento +
+                ", direccion='" + direccion + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", objetosPerdidos=" + objetosPerdidos +
+                '}';
+    }
+}
