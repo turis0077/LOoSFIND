@@ -1,1 +1,6 @@
-Hola gente
+import java.util.Scanner;
+
+public class Menu {
+
+    // Método para mostrar el menú y capturar la opción del usuario
+    public void mostrarMenu() {
